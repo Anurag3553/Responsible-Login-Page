@@ -1,0 +1,131 @@
+.signin{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    font-family: Georgia;
+    top: 80px;
+    left: 500px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    box-shadow: 7px 7px 30px blue;
+    
+}
+/* body{
+  background-image: linear-gradient(-45deg, #19f027 0%, #0b6c3c 100%);
+
+} */
+.login{
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+    border-radius: 20px;
+    background-color: rgb(159, 239, 213);
+    box-shadow: 2px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#firstname:hover{
+    transition: 1s;
+    box-shadow: 5px 7px  20px rgb(63, 63, 238);
+    transform: translate(3px);
+
+}
+
+#lastname:hover{
+    transition: 1s;
+    box-shadow: 5px 7px  20px rgb(63, 63, 238);
+    transform: translate(3px);
+}
+#number:hover{
+    transition: 1s;
+    box-shadow: 5px 7px  20px rgb(63, 63, 238);
+    transform: translate(3px);
+}
+#Email:hover{
+    transition: 1s;
+    box-shadow: 5px 7px  20px rgb(63, 63, 238);
+    transform: translate(3px);
+}
+
+#firstname{
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    padding-left: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    background-color: aliceblue;
+    border: none;
+    
+}
+
+#lastname{
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 50px;
+    box-shadow: 2px 2px 5px black;
+    background-color: aliceblue;
+    left: 0px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+#number{
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 80px;
+    box-shadow: 2px 2px 5px black;
+    background-color: aliceblue;
+    left: 0px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+#Email{
+    width: 200px;
+    height: 35px;
+    position: relative;
+    top: 110px;
+    left: 0px;
+    box-shadow: 2px 2px 5px black;
+    background-color: aliceblue;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+}
+.sign{
+    height: 30px;
+    width: 150px;
+    position: relative;
+    box-shadow: 2px 5px 10px black;
+    background-color: aliceblue;
+    background-color: rgb(63, 63, 238);
+    color: white;
+    top: 30px;
+    left: -5px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.sign:hover{
+    transition: 1s;
+    background-color: grey;
+    color: black;
+    box-shadow: 5px 5px 20px rgb(63, 63, 238);
+}
+
